@@ -1,0 +1,31 @@
+{
+  "name": "webscraping-bca-kurs",
+  "version": "1.0.0",
+  "description": "Scraping Kurs BCA",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Refiqi/WebScraping-BCA-Kurs.git"
+  },
+  "keywords": [
+    "Scraping",
+    "Cheerio"
+  ],
+  "author": "Refiqi Muhamad Fadila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Refiqi/WebScraping-BCA-Kurs/issues"
+  },
+  "homepage": "https://github.com/Refiqi/WebScraping-BCA-Kurs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

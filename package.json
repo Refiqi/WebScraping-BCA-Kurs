@@ -4,7 +4,7 @@
   "description": "Scraping Kurs BCA",
   "main": "index.js",
   "scripts": {
-
+    "test": "mocha --timeout 10000 --exit"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,16 @@
   "homepage": "https://github.com/Refiqi/WebScraping-BCA-Kurs#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
-    "mongoose": "^5.4.17"
+    "mongoose": "^5.4.17",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2",
     "nodemon": "^1.18.10"
   }
 }

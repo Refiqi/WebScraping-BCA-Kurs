@@ -13,6 +13,11 @@ mongoose.connect('mongodb://localhost:27017/kurs', { useNewUrlParser: true }, er
     console.log('Database Connected');
 });
 
+// Loading Router
+const main = require('./routes/kurs');
+
+// Using Router
+app.use('/api', main);
 
 
 
@@ -21,3 +26,5 @@ const port = process.env.PORT || 7000;
 app.listen(port, () => {
     console.log(`Server Connected at ${port}`);
 })
+
+module.exports = app;  // For Testing Purpose
